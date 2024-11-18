@@ -94,6 +94,9 @@ h6 {
 img {
     margin-bottom: 8%;
 }
+.img6 {
+    width: 40.5%;
+}
 .split-container-square-row {
     display: flex;
     justify-content: center;
