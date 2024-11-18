@@ -240,8 +240,15 @@ img {
     img:not(.profile-image):not(.contact-image) {
         width: 90% !important;
     }
-
-    .split-container img, .split-container-square-row img {
+    .split-container, .split-container-square-row{
         width: 43% !important;
+        gap: 20px;
+    }
+    .split-container {
+        margin-bottom: 10px;
+    }
+    .split-container-square-row{
+        margin-left: 28%;
+        margin-bottom: 10px;
     }
 }
